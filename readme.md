@@ -22,6 +22,21 @@ scan files for evil code
 ## Usage
 Use TypeScript for best in class instellisense.
 
+This package is determined for use in environments that need virus scanning of some sort.
+
+```typescript
+import * as antivirus from 'antivirus'
+
+const scanAFile = async (pathToFileArg) => {
+  let scanresult = await antivirus.scanFile(pathToFileArg)
+  if(scanresult.isClean) {
+    // do something if its clean
+  } else {
+    // do something if its infected
+  }
+}
+```
+
 For further information read the linked docs at the top of this README.
 
 > MIT licensed | **&copy;** [Lossless GmbH](https://lossless.gmbh)
