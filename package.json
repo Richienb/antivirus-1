@@ -1,0 +1,18 @@
+{
+  "name": "antivirus",
+  "version": "1.0.1",
+  "description": "scan files for evil code",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "author": "Lossless GmbH",
+  "license": "",
+  "scripts": {
+    "test": "(npmts)",
+    "format": "(gitzone format)"
+  },
+   "devDependencies": {
+    "tapbundle": "^1.0.13"
+  },
+  "dependencies": {
+  }
+}
