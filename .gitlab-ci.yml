@@ -78,8 +78,7 @@ testWINDOWS:
   - npm test
   coverage: /\d+.?\d+?\%\s*coverage/
   tags:
-  - docker
-  - notpriv
+  - windows
 
 release:
   stage: release
@@ -89,7 +88,8 @@ release:
   only:
   - tags
   tags:
-  - windows
+  - docker
+  - notpriv
 
 # ====================
 # metadata stage
