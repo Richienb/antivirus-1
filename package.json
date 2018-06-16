@@ -1,6 +1,6 @@
 {
   "name": "antivirus",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "scan files for evil code",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
