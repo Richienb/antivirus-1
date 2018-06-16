@@ -74,8 +74,8 @@ testWINDOWS:
   image: stefanscherer/node-windows
   stage: test
   script:
-  - npm install
-  - npm test
+  - npmci npm install
+  - npmci npm test
   coverage: /\d+.?\d+?\%\s*coverage/
   tags:
   - windows
