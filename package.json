@@ -5,13 +5,16 @@
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "author": "Lossless GmbH",
-  "license": "",
+  "license": "UNLICENSED",
   "scripts": {
-    "test": "(npmts)",
-    "format": "(gitzone format)"
+    "test": "tsrun test/test.ts",
+    "format": "(gitzone format)",
+    "build": "echo \"Not needed for now\""
   },
   "devDependencies": {
+    "@gitzone/tsrun": "^1.0.5",
     "tapbundle": "^1.0.13"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "private": true
 }
