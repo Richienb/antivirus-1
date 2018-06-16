@@ -13,7 +13,8 @@
   },
   "devDependencies": {
     "@gitzone/tsrun": "^1.0.5",
-    "tapbundle": "^1.0.13"
+    "@types/node": "^10.3.3",
+    "tapbundle": "^2.0.0"
   },
   "dependencies": {},
   "private": true
