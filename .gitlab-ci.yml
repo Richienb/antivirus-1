@@ -74,6 +74,7 @@ testWINDOWS:
   image: stefanscherer/node-windows
   stage: test
   script:
+  - npm install --global --production windows-build-tools
   - npm install
   - npm test
   coverage: /\d+.?\d+?\%\s*coverage/
